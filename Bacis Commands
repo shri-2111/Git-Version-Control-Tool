@@ -40,5 +40,9 @@ git stash pop --index no
 
 git branch 
 git branch branchname 
-git checkout 
+git checkout branchname 
+git branch -d branchname 
+
+git merge branchname 
+
 
