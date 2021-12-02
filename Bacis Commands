@@ -1,0 +1,44 @@
+history
+yum Install git -y
+git --version
+git init
+git add filename
+git add .
+git commit -m "msg"
+git commit -a -m "msg"
+git status 
+
+git ls-files
+
+git log
+git log --oneline
+git config --global user.name shri-2111
+git config --global user.email shribugade777@gmail.com
+
+git rm file.html 
+git rm -f filename 
+git revert filecommentid 
+
+git diff filename
+git checkout filename 
+
+git diff --stage filename
+git reset HEAD filename
+git restore filename 
+
+.gitignore
+
+git reset --hard commitid
+git reset --mix commitid 
+git reset --soft commitid
+
+git stash
+git stash list
+git show stash@{indexno}
+git stash apply --index no
+git stash pop --index no 
+
+git branch 
+git branch branchname 
+git checkout 
+
